@@ -15,20 +15,39 @@
  */
  body {
    text-align: center;
-   font-family: 'Kelly Slab';
-   background-color: #FFA351;
+   font-family: 'Aldrich';
+   background-color: black;
  }
 
  h1 {
    margin: 40px;
+   color: white;
  }
+
+ footer {
+   color: white;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   height: 50px;
+ }
+
+ #github {
+   color: grey;
+ }
+
+ #github:visited {
+   color: gold;
+ }
+
 
  .challenge {
    margin: auto;
    width: 70%;
-   height: 100px;
+   height: 90px;
    padding: 50px;
-   background-color: white;
+   color: white;
+   background-color: grey;
    border: 1px black solid;
  }
 
@@ -37,7 +56,7 @@
  }
 
  .button {
-  font-family: 'Kelly Slab';
+  font-family: 'Aldrich';
   text-decoration: none;
   background-color: #EEEEEE;
   color: #333333;
@@ -49,7 +68,7 @@
  }
 
  .button:hover {
-   background-color: #F47327;
+   background-color: gold;
    border-bottom: 1px solid #333333;
    border-top: none;
  }
