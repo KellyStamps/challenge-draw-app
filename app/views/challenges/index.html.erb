@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Kelly+Slab" rel="stylesheet">
+  </head>
+  <body>
+    
+    <div id='head'>
+      <h1>Grow your skillset with this coding challenge:</h1>
+    </div>
+
+    <div id='challenge-div' class='challenge'>
+      <h2><%= @challenges.sample.content %></h2>
+    </div>
+
+    <div class='button-div'>
+      <%= link_to 'New Challenge', challenges_path, class: 'button' %>
+    </div>
+
+  </body>
+</html>
